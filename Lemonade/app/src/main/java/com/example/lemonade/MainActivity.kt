@@ -96,13 +96,4 @@ fun LemonadeButton(modifier: Modifier = Modifier) {
 @Composable
 fun LemonadeButtonApp() {
    LemonadeButton()
-
-}
-
-@Preview(showBackground = true)
-@Composable
-fun LemonadeButtonAppPreview() {
-    LemonadeTheme {
-        LemonadeButtonApp()
-    }
 }
